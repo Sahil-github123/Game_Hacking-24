@@ -1,4 +1,4 @@
-# Ubuntu Focal 20.04 (LTS)
+
 # Docker Engine for Ubuntu is compatible with x86_64 (or amd64), armhf, arm64, s390x, and ppc64le (ppc64el) architectures.
 
 # Uninstall Docker Engine :
@@ -52,6 +52,14 @@ sudo usermod -aG docker $USER
 # Verify that you can run docker commands without sudo.
 docker run hello-world
 
+
+
+
+# Docker-Compose :-
+# Docker Desktop includes Docker Compose along with Docker Engine and Docker CLI which are Compose prerequisites. Thus, its already installed to the latest version.
+# To update Compose :
+sudo apt-get update
+sudo apt-get install docker-compose-plugin
 
 
 
